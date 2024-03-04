@@ -12,14 +12,18 @@
         </h1>
     </header>
     <main>
-        <form action="" method="post">
+        <form action="../Model/MInicioDeSesion.php" method="post">
             <div>
                 <label for="">Correo</label>
-                <input type="text">
+                <input type="email" name="corr">
             </div>
             <div>
                 <label for="">Contraseña</label>
-                <input type="password" name="" id="">
+                <input type="password" name="pswrd" id="">
+            </div>
+            <div>
+                <input type="submit" value="Cancelar" name="cancel">
+                <input type="submit" value="Iniciar Sesión" name="iniciar">
             </div>
         </form>
     </main>
